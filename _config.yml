@@ -53,12 +53,10 @@ timezone: Canada/Vancouver # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
     output: true
-    description: "" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: ""
+    description: "Posts" # The post list page content
+    # feature_text: ""
+    # feature_image: ""
 
 # 6. Jekyll collections settings
 defaults:
@@ -112,7 +110,7 @@ navigation_header:
 - title: Home
   url: /
 - title: Posts
-  url: /blog/
+  url: /post/
 - title: Categories
   url: /categories/
 - title: Search
