@@ -55,7 +55,7 @@ collections:
   posts:
     title: Posts # Needed for Siteleaf
     output: true
-    description: "My Posts" # The post list page content
+    description: "" # The post list page content
     feature_text: |
       Welcome to the blog
     feature_image: ""
