@@ -7,7 +7,7 @@ categories: general
 
 Hello, this is the first post on my blog.
 
-My name is Aiden, and I live in Vancouver, Canada.
+My name is Junil, and I live in Vancouver, Canada.
 
 I moved here from South Korea because I was just curious about how life in North America would be different from my country. Embracing the idea of “just do it”, I obtained an open work permit for Canada and made the move (4 months from first thought to arriving at Vancouver airport). I have worked as a Software Engineer, and now I’m trying to find a job in this city.
 
