@@ -33,9 +33,9 @@ paginate: 5 # jekyll-paginate > items per page
 paginate_path: blog/page:num # jekyll-paginate > blog page
 jekyll-mentions: # jekyll-mentions > service used when @replying
 
-author: Orangebulb # jekyll-seo-tag > default author
+author: Junil # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
-  name: Aiden Hong # jekyll-seo-tag > real name
+  name: Junil Hong # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://github.com/trpallin
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
@@ -76,7 +76,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-US # Set the site language
-title: "Orangebulb" # Site name or title, also used in jekyll-seo-tag
+title: "Junil's blog" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.png" # Site logo, also used in jekyll-seo-tag
 description: "This is a description" # Site description and default description, also used in jekyll-seo-tag
 url: "https://trpallin.github.io" # Site url, also used in jekyll-seo-tag
