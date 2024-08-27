@@ -11,7 +11,7 @@ html {
 
 // Site-wide base styles.
 body {
-  @include fontsize(zeta, all);
+  @include fontsize(eta, all);
 
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
@@ -52,7 +52,7 @@ a {
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
-    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 1.6, $below: 2, $breakpoint: all);
 
     font-feature-settings: 'kern', 'onum', 'liga';
   }
@@ -98,14 +98,14 @@ a {
 
   // Lists.
   ul, ol {
-    @include baseline(zeta, $bodytype, 2, 2, all);
+    @include baseline(zeta, $bodytype, 1.6, 2, all);
 
     li {
       font-feature-settings: 'kern', 'onum', 'liga';
       margin-left: 2rem;
 
       @include breakpoint(break-1) {
-        margin-left: 0;
+        margin-left: 1;
       }
 
       ol, ul {
@@ -319,6 +319,7 @@ a {
   code, pre {
     background-color: $codeBackgroundColour;
     font-family: unquote(map-get($monospacetype, font-family));
+    line-height: 1.0;
   }
 
   pre {
